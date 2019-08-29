@@ -3,7 +3,7 @@ pipeline{
 	stages{
 	    stage('checkout'){
 	      	steps{
-	      	git credentialsId: 'f1238b79-8225-4562-9035-60756ed108b0', url: 'https://github.com/chiragch/example-pipeline.git'
+	      	git credentialsId: 'f1238b79-8225-4562-9035-60756ed108b0', url: 'https://github.com/chiragch/Music_Store.git'
 	      	}
 	    }
 		stage('Build'){
